@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Gen</title>
+    <link href="./output.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins&display=swap');
+      </style>
+</head>
+<body class="max-w-6xl mx-auto bg-[url('./Assets/images/background-mobile.png')] bg-cover bg-no-repeat md:bg-[url('./Assets/images/background-desktop.png')] md:bg-cover font-[Inconsolata]">
+    <header>
+        <div class="flex items-center justify-center gap-1 space-x-2 p-4">
+            <div>
+                <img src="./assets/images/logo-mark.svg" class="w-5 h-5" alt="logo">
+            </div>
+
+            <p class="text-white text-lg md:text-3xl font-bold">Coding Conf</p>
+       </div>
+    
+       <section class="text-center">
+        <h2 class="text-white text-xl font-bold capitalize pt-4 px-5 md:text-3xl word-spacing-wide">congrats, <span class="bg-gradient-to-r from-[#e16151] to-[#ccaba7] inline-block text-transparent bg-clip-text font-Inconsolata">jonatan krist<span class="text-gray-300">of!</span></span><h2>
+        <p class="text-white text-xl md:text-3xl font-bold pb-3">Your ticket is ready.</p>
+        <p class="text-slate-400 text-xs md:text-sm px-6">We've emailed your ticket to <span class="text-[#e16151]">jonatan@email.com</span> and will send<br> updates in the run up to the event.</p>
+      </section>
+    </header>
+
+    <main>
+        <section class="mt-10 mx-auto">
+            <div class="relative flex justify-center items-center" id="ticket">
+                <img class="absolute top-0 right-auto left-auto -z-10" src="./assets/images/pattern-ticket.svg" alt="pattern-ticket">
+
+                <div class="grid grid-cols-3 p-5 md:py-14 md:gap-10">
+                  <div class="col-span-2 flex flex-col gap-4 md:gap-8">
+                    <div>
+                      <img src="./assets/images/logo-full.svg" alt="logo-full">
+                      <p class="text-xs text-white opacity-50 mt-4">Jan 31, 2025 / Accra, Ghana</p>
+                    </div>
+                    <div class="mt-4 flex space-x-2">
+                      <div>
+                        <img class="h-12 md:h-16 rounded-md" id="ticketAvatar" src="" alt="">
+                    </div>
+                      <div>
+                        <p class="text-sm md:text-xl mb-1" id="ticketName"></p>
+                        <div class="flex space-x-2 items-center">
+                            <div>
+                                <img src="./assets/images/image-avatar.jpg" class="rounded-md w-12 h-16">
+                            </div>
+
+                            <div class="py-4">
+                                <p class="text-white text-sm">Jonatan Kristof</p>
+                                <div class="flex items-center gap-1">
+                                    <img src="./assets/images/icon-github.svg" alt="github-icon">
+                                    <p class="text-xs text-white md:text-sm opacity-50" id="ticketUsername">@jonatankrisstof0101</p>
+                                </div>
+                               
+                            </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>
